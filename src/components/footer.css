@@ -1,0 +1,20 @@
+@import './css-shared/variables.css';
+
+.container {
+  background-color: var(--cloud);
+  padding: .2em;
+  border-bottom: 1px solid var(--borderColor);
+
+  display: flex;
+}
+
+.buttons {
+  border: 1px solid var(--borderColor);
+  margin: .1em;
+  padding: .5em;
+  text-transform: capitalize;
+  border-radius: 2px;
+  background-color: var(--gray);
+
+  flex-grow: 1;
+}

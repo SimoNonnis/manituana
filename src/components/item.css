@@ -1,0 +1,23 @@
+@import './css-shared/variables.css';
+
+.container {
+  background-color: var(--cloud);
+  border-bottom: 1px solid var(--borderColor);
+  padding: .5em;
+  display: block;
+
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  border-radius: 100%;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-right: 1em;
+}
+
+.description {
+  margin-top: .5em;
+}
