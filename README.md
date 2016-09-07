@@ -1,2 +1,2 @@
 # manituana
-A single page app using react
+A single page app built using react
