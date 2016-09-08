@@ -3,7 +3,7 @@
    Global
    ========================================================================== */
 html {
-  background-color: var(--mainColor);
+  background-color: var(--sky);
   box-sizing: border-box;
 }
 

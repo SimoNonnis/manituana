@@ -5,10 +5,10 @@
 
 
 :root {
-  --mainColor: white;
+  --sky: #d7f1f5;
+
   --cloud: #fffefe;
   --dark: #000;
   --gray: #efefef;
   --borderColor: #d2d0d0;
-
 }
