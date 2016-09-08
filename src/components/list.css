@@ -1,0 +1,11 @@
+@import './css-shared/variables.css';
+
+.container {
+  height: 500px;
+  overflow: hidden;
+}
+
+.scrollingContainer {
+  height: 500px;
+  overflow: scroll;
+}
