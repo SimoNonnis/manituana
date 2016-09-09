@@ -1,0 +1,36 @@
+@import './css-shared/variables.css';
+
+.container {
+  background-color: var(--cloud);
+  padding: .5em;
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  border-radius: 100%;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-right: 1em;
+}
+
+.description {
+  margin-top: .5em;
+}
+
+.backBtn {
+  text-align: right;
+}
+
+.btn {
+  border: 1px solid var(--borderColor);
+  margin: .1em;
+  padding: .5em;
+  text-transform: capitalize;
+  border-radius: 2px;
+  background-color: var(--gray);
+}

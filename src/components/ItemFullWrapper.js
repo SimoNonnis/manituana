@@ -1,18 +1,18 @@
 import React, { PropTypes }  from 'react';
 
-import Item from './Item';
+import ItemFull from './ItemFull';
 
-import styles from './list.css';
+import styles from './itemFullWrapper.css';
 
-const List = ({ buttons }) => {
+const ItemFullWrapper = ({ buttons }) => {
   const items = buttons.map((item, i) => {
     return (
-      <Item
+      <ItemFull
         key={i+1}
         link={item.link}
         title={item.caption_en}
         image={item.image}
-        desc={item.description_en}
+        fullDesc={item.full_desc_en}
       />
     )
   });
@@ -26,10 +26,10 @@ const List = ({ buttons }) => {
   )
 };
 
-List.propTypes = {
+ItemFullWrapper.propTypes = {
   buttons: PropTypes.array
 };
 
 
 
-export default List;
+export default ItemFullWrapper;

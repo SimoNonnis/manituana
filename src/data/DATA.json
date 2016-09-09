@@ -4,41 +4,47 @@
      "image": "http://i.imgur.com/D5cBPjB.jpg",
      "caption_en": "Book",
      "name": "book",
-     "description_en": "Make an Appointment"
+     "description_en": "Make an Appointment",
+     "full_desc_en" : "Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost."
    },
    {
      "link": "2",
      "image": "http://i.imgur.com/91IWQ8P.jpg",
      "caption_en": "Explore",
      "name": "classes",
-     "description_en": "Discover our Services"
+     "description_en": "Discover our Services",
+     "full_desc_en" : "Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost."
    },
    {
      "link": "3",
      "image": "http://i.imgur.com/yDlQoLU.jpg",
      "caption_en": "Salons",
      "name": "clubs",
-     "description_en": "Find your Salon"
+     "description_en": "Find your Salon",
+     "full_desc_en" : "Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost."
    },
    {
      "link": "4",
      "name": "collection",
      "image": "http://i.imgur.com/6XvZEMp.jpg",
      "description_en": "Find Your Style",
-     "caption_en": "Collection"
+     "caption_en": "Collection",
+     "full_desc_en" : "Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost."
    },
    {
      "link": "5",
      "name": "other",
      "image": "http://i.imgur.com/oKU8eij.jpg",
      "description_en": "The History of the House",
-     "caption_en": "Our Salon"
+     "caption_en": "Our Salon",
+     "full_desc_en" : "Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost."
    },
   {
      "link": "6",
      "name": "other2",
      "image": "http://i.imgur.com/4Stw0tA.jpg",
      "description_en": "Need something different?",
-     "caption_en": "Other Haircuts"
+     "caption_en": "Other Haircuts",
+     "full_desc_en" : "Because men, groping in the Arctic darkness, had found a yellow metal, and because steamship and transportation companies were booming the find, thousands of men were rushing into the Northland. These men wanted dogs, and the dogs they wanted were heavy dogs, with strong muscles by which to toil, and furry coats to protect them from the frost."
    }
  ]}
