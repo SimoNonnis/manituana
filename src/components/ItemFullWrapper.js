@@ -4,30 +4,33 @@ import ItemFull from './ItemFull';
 
 import styles from './itemFullWrapper.css';
 
-const ItemFullWrapper = ({ buttons }) => {
-  const items = buttons.map((item, i) => {
-    return (
-      <ItemFull
-        key={i+1}
-        link={item.link}
-        title={item.caption_en}
-        image={item.image}
-        fullDesc={item.full_desc_en}
-      />
-    )
+const ItemFullWrapper = (props) => {
+  const item = props.buttons.map((item, i) => {
+    if (props.params.link === item.link) {
+      return (
+        <ItemFull
+          key={i+1}
+          title={item.caption_en}
+          image={item.image}
+          fullDesc={item.full_desc_en}
+        />
+      )
+    }
+
   });
 
   return (
     <div className={styles.container}>
       <div className={styles.scrollingContainer}>
-        {items}
+        {item}
       </div>
     </div>
   )
 };
 
 ItemFullWrapper.propTypes = {
-  buttons: PropTypes.array
+  buttons: PropTypes.array,
+  params: PropTypes.object
 };
 
 

@@ -2,7 +2,7 @@
 
 .container {
   background-color: var(--cloud);
-  padding: .5em;
+  padding: 2em .5em .5em;
 }
 
 .innerContainer {
@@ -23,6 +23,7 @@
 }
 
 .backBtn {
+  margin-top: 2em;
   text-align: right;
 }
 
